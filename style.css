@@ -1,0 +1,55 @@
+.fit-image{
+    width: 100%;
+    object-fit: cover;
+    height: 325px;
+}
+
+h1{
+    color: royalblue;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold
+}
+
+h3{
+    color: royalblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold
+}
+
+img:hover{
+    background-color: royalblue;
+}
+
+.box {
+    padding: 12px;
+    background: whitesmoke;
+    margin-top: 45px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    align-content: center;
+}
+
+p{
+    font-size: 21px;
+}
+
+.navbar {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 20px;
+    background: gray;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
