@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title> Latitude vs. Cloudiness</title>
+    <title> Landing Page</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -14,52 +14,51 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="landing_page.html">Latitude and Weather</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="nav nav-tabs">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="landing_page.html">Home<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Plots
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
-                            <a class="dropdown-item" href="max_temp.html">Max Temp</a>
-                            <a class="dropdown-item" href="humidity.html">Humidity</a>
-                            <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="comparison.html">Comparison</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="data.html">Data</a>
-                    </li>
-                </ul>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="landing_page.html">Latitude and Weather</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="landing_page.html">Home<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Plots
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                                <a class="dropdown-item" href="max_temp.html">Max Temp</a>
+                                <a class="dropdown-item" href="humidity.html">Humidity</a>
+                                <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="comparison.html">Comparison</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="data.html">Data</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-</body>
+          </nav>
+    </body>
 </br>
 </br>
 <body style="background-color: lightcyan;">
     <div class="container">
         <div class="row">
             <div class="col-md-6" style="background-color:white; padding: 45px; padding-top: 20px; padding-bottom: 20px;">
-            <h3>Cloudiness</h3>
+                <h3>Humidity</h3>
             <hr>
-            <img src= "resources/assets/images/cloudiness.png" class="img-responsive fit-image">
-            <p>The plot does not appear to show any clear relationship between a given city's latitude and the percentage of cloudiness experienced on this particular date.</p>
-            <p>The data indicates that cloudiness percentage can (and often does) range from 0% to 100% at numerous latitudes, and for this reason, we can conclude that there is no relationship between the two variables in this dataset.</p>
-            
+            <img src= "WebVisualizations/resources/assets/images/humidity.png" class="img-responsive fit-image">
+            <p>This plot does not appear to show much correlation between a city's latitude and the humidity experienced on the specific date. There seems to be more data points at higher levels of humidity, however there is not a clear trend that establishes a noticeable relationship.</p>
+            <p>If there is any takeaway from this plot, perhaps it is that cities all around the world generally experience humidity levels above 20-40%; although this could simply be due to the randomness of the selected cities in this observed dataset.</p>
             </div>
             <div class="col-md-1"></div>
                 <div class="col-md-5 sidebar">
@@ -88,5 +87,4 @@
             </div>
         </div>
     </div>
-    
 </body>
